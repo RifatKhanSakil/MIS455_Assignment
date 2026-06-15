@@ -1,0 +1,83 @@
+/* MIS 455 Assignment 1 */
+/* Tourist Places in Bangladesh */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+    font-family:'Roboto',sans-serif;
+}
+
+header{
+    background:#00695c;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#004d40;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.container{
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+h1,h2{
+    font-family:'Poppins',sans-serif;
+}
+
+img{
+    width:100%;
+    max-width:450px;
+    border-radius:10px;
+    margin:10px;
+}
+
+.flex-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.grid-container img{
+    width:100%;
+}
+
+footer{
+    background:#00695c;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
