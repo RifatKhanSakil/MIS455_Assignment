@@ -21,6 +21,9 @@ nav{
     background:#004d40;
     text-align:center;
     padding:15px;
+    position: sticky;
+    top: 0;
+    z-index:10;
 }
 
 nav a{
