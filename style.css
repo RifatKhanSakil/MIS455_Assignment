@@ -50,9 +50,7 @@ nav a:hover{
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,.3);
     transition: .5s;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: Fadein 1s ease forwards;
+    
 }
 .card:hover{
     transform: scale(1.02);
